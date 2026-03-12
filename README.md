@@ -9,11 +9,11 @@ The app allows users to interact with Groq language models, select models dynami
 
 - Multi-turn conversation support
 - Dynamic **Groq model selection**
-- Adjustable **system prompt**
+- Adjustable system prompt
 - Temperature and Top-P controls
 - Token limit configuration
-- Persistent **chat history**
-- Clean **Streamlit chat interface**
+- Persistent chat history
+- Clean Streamlit chat interface
 - API key managed securely with `.env`
 
 ---
@@ -33,19 +33,19 @@ streamlit-groq-chatbot/
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Saggy7276/streamlit-groq-chatbot.git
 cd streamlit-groq-chatbot
-2️⃣ Create a virtual environment
+2. Create a virtual environment
 Windows
 python -m venv venv
 venv\Scripts\activate
 Mac / Linux
 python3 -m venv venv
 source venv/bin/activate
-3️⃣ Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 🔑 Environment Variables
 
